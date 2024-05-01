@@ -1,0 +1,11 @@
+{
+	"printWidth": 100,
+	"endOfLine": "lf",
+	"singleQuote": true,
+	"tab_width": 1,
+	"tabs": false,
+	"indent_style": "tabWidth",
+	"useTabs": false,
+	"semi": false,
+	"trailingComma": "es5"
+}

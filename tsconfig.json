@@ -12,6 +12,14 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "target": "es2020",
+		"useDefineForClassFields": true,
+		/* Bundler mode */
+		"allowImportingTsExtensions": true,
+		/* Linting */
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
     "plugins": [
       {
         "name": "next"

@@ -1,12 +1,5 @@
-import type { Metadata } from "next";
 import "./globals.css";
-
-
-export const metadata: Metadata = {
-  title: 'NextJS Course App',
-  description: 'Your first NextJS app!',
-};
-
+import MainHeader from "@/components/mainHeader/mainHeader";
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -14,7 +7,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+
+        <MainHeader />
+        {children}
+      </body>
     </html>
   );
 }
+
